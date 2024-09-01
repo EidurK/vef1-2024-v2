@@ -1,5 +1,7 @@
 # Vefforritun 1, 2024: Verkefni 2, HTML #2
 
+[Kynning í fyrirlestri](https://www.youtube.com/watch?v=bJCo70yttxs).
+
 ## Markmið
 
 - Vinna með og velja HTML element.
@@ -133,7 +135,7 @@ Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samta
 
 Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
 
-> Útgáfa 0.2
+> Útgáfa 0.3
 
 ---
 
@@ -141,3 +143,4 @@ Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20
 | ------ | ------------------------------------------------------------------------------------------------------------- |
 | 0.1    | Fyrsta útgáfa                                                                                                 |
 | 0.2    | Breyta mati milli síðna; Bæta við reitum í form; laga smávægilegar villur í efni; bæta við `sharing.jpg` mynd |
+| 0.3    | Bæta við hlekk á kynningu í fyrirlestri                                                                       |

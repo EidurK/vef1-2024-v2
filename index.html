@@ -3,13 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <title>Spilabúðin</title>
+    <link rel="stylesheet" href="./styles.css">
+
   </head>
+  <p><a href="#efni">Beint í efni</a></p>
   <body>
-    <header><nav><menu><li><a href="../index.html">Forsíða</a></li></menu></nav></header>
-    <main>
+    <div class="wrapper">
+    <header>
         <h1>Spilabúðin</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><strong>Forsíða</strong></li>
+            <li><a href="sidur/spil.html">spil</a></li>
+            <li><a href="sidur/vidmurdur.html">vidmurdur</a></li>
+            <li><a href="sidur/skraning.html">skraning</a></li>
+        </ul>
+    </nav>
+    <main id="efni">
+        <section>
+        <img src="./myndir/spilabudin.jpg" width="30%"/> 
         <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1.</p>
-        <img src="./myndir/spilabudin.jpg" width="30%"/>
+    </section>
 
         <section>
             <h2>Spil</h2>
@@ -20,10 +35,7 @@
         </section>
         <section>
             <h2>Viðburðir</h2>
-            <p> Við höldum reglulega viðburði.</p>
-            <a href="./sidur/spil.html">Skoðaðu spila úrvalið</a>
-            <p>eða</p> 
-            <a href="./sidur/skraning.html">skráðu þig á viðburð</a>.
+            <p> Við höldum reglulega viðburði. <a href="./sidur/spil.html">Skoðaðu spila úrvalið</a> eða <a href="./sidur/skraning.html">skráðu þig á viðburð</a>.</p>
         </section>
     </main>
     <footer>
@@ -61,5 +73,6 @@
             </address>
         </section>
     </footer>
+    </div>
   </body>
 </html>

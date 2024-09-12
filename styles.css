@@ -34,6 +34,7 @@ html {
 /*** Grunnstærð er 16px ***/
 html {
   font-size: 16px;
+  background-color: #cc99bb;
 }
 
 /*** Leturgerðir sem við sækjum úr fonts/ möppu ***/
@@ -87,6 +88,7 @@ legend {
 /** Lætur myndir aldrei taka meira pláss en foreldri skilgreinir **/
 img {
   max-width: 100%;
+  border-radius: 5px;
 }
 
 /** Litur á hlekkjum erfist frá foreldri **/
@@ -175,7 +177,6 @@ main section {
 
 main section img {
   max-width: 30%;
-  border-radius: 10px;
   float: right;
   margin-left: 20px;
 }
@@ -237,7 +238,6 @@ table tr:nth-child(odd) {
 table tr img {
   padding: 2%;
   width: fit-content;
-  border-radius: 10px;
 }
 
 /** Viðburðir **/

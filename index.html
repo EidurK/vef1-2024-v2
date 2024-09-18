@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Spilabúðin</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles(2).css">
 
   </head>
   <p><a href="#efni">Beint í efni</a></p>
@@ -12,32 +12,89 @@
     <header>
         <h1>Spilabúðin</h1>
     </header>
-    <nav>
-        <ul>
-            <li><strong>Forsíða</strong></li>
-            <li><a href="sidur/spil.html">spil</a></li>
-            <li><a href="sidur/vidburdur.html">Viðburður</a></li>
-            <li><a href="sidur/skraning.html">skraning</a></li>
-        </ul>
-    </nav>
-    <main id="efni">
-        <section>
-        <img src="./myndir/spilabudin.jpg" width="30%"/> 
-        <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1.</p>
-    </section>
-
-        <section>
-            <h2>Spil</h2>
-            <p> 
-                Við seljum allskonar spil fyrir allskonar fólk. 
-                <href src="./index.html">Skoðaðu spila úrvalið</href>.  
-            </p>
-        </section>
-        <section>
-            <h2>Viðburðir</h2>
-            <p> Við höldum reglulega viðburði. <a href="./sidur/spil.html">Skoðaðu spila úrvalið</a> eða <a href="./sidur/skraning.html">skráðu þig á viðburð</a>.</p>
-        </section>
-    </main>
+    <div class="content">
+        <nav>
+            <ul>
+                <li><strong>Forsíða</strong></li>
+                <li><a href="sidur/spil.html">spil</a></li>
+                <li><a href="sidur/vidburdur.html">Viðburður</a></li>
+                <li><a href="sidur/skraning.html">skraning</a></li>
+            </ul>
+        </nav>
+        <main id="efni>
+            <div class="content">
+                <section>
+                    <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1.</p>
+                    <img src="./myndir/spilabudin.jpg" width="30%"/> 
+                </section>
+                <div class="cards">
+                    <div class="content">
+                        <div class="card">
+                            <div class="content"> 
+                                <div class="text">
+                                    <h2>Spil</h2>
+                                    <p> við seljum allskonar spil fyrir allskonar fólk.</p> 
+                                </div>
+                                <div class="actions">
+                                    <button href="/sidur/spil.html">Skoða Spil</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="text">
+                                    <h2>Viðburðir</h2>
+                                    <p> Við höldum reglulega viðburði.</p>
+                                </div>
+                                <div class="actions">
+                                    <button href="./sidur/spil.html">Skoðaðu spila úrvalið</button>
+                                    <button href="./sidur/skraning.html">skráðu þig á viðburð</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="title">
+                        <h2>Vinsælustu spilin</h2> 
+                    </div>
+                    <div class="content">
+                        <div class="card">
+                            <div class="image">
+                                <img src="./myndir/brass.jpg" alt=""> 
+                            </div>
+                            <div class="content">
+                                <div class="text">
+                                    <h2>Brass Birmingham</h2>
+                                    <p>Ný komiið aftur! Klassískt spil sem fær 8,41 í einkun...</p>
+                                </div>
+                                <div class="actions">
+                                    <button> skoða spil</button>
+                                    <button>Setja í körfu</button> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="./myndir/pandemic.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <div class="text"> 
+                                    <h2>Pandemic Legacy</h2>
+                                    <p>Getið þið unnið saman til að stöððva heimsfaraldur...<p> 
+                                </div>
+                                <div class="actions">
+                                    <button href="./sidur/spil.html"> skoða spil</button>
+                                    <button href="">Setja í körfu</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
     <footer>
         <section>
             <h3>Opnunartími</h3>
